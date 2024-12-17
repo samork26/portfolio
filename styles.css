@@ -10,9 +10,8 @@ body {
 
 /* Header Styling */
 header {
-    background-color: #222; /* Slightly lighter black */
-    padding: 1rem 0;
-    margin-bottom: 1rem;
+    background-color: #222;
+    padding: 1.5rem 0;
 }
 
 header h1 {
@@ -25,7 +24,6 @@ header p {
     margin-top: 0.5rem;
 }
 
-/* Navigation Styling */
 nav {
     margin: 1rem 0;
 }
@@ -43,16 +41,16 @@ nav a:hover {
 
 /* Section Styling */
 section {
-    padding: 2rem;
-    border-bottom: 1px solid #444; /* Darker line for separation */
+    padding: 2rem 1rem;
+    border-bottom: 1px solid #444;
 }
 
 h2, h3 {
-    margin: 1rem 0;
+    margin-bottom: 1rem;
 }
 
 a {
-    color: #4da8da; /* Light blue for links */
+    color: #4da8da;
     text-decoration: none;
 }
 
@@ -60,10 +58,28 @@ a:hover {
     text-decoration: underline;
 }
 
+/* Social Links Styling */
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 1rem;
+}
+
+.social-links a {
+    color: #fff;
+    font-size: 2rem;
+    transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+    color: #4da8da; /* Light blue hover effect */
+}
+
 /* Footer Styling */
 footer {
     background-color: #222;
     color: #aaa;
-    padding: 1rem;
+    padding: 1rem 0;
     margin-top: 1rem;
 }
