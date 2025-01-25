@@ -7,3 +7,9 @@ def index(request):
 
 def about(request):
     return render(request, 'about.html')
+
+def experience(request):
+    return render(request, 'experience.html')
+
+def contact(request):
+    return render(request, 'contact.html')
