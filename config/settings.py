@@ -80,13 +80,7 @@ WSGI_APPLICATION = 'config.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/5.1/ref/settings/#databases
 
-DATABASES = {
-    'default': dj_database_url.config(
-        default='sqlite:///db.sqlite3',  # Use SQLite for local development
-        conn_max_age=600,
-        ssl_require=True
-    )
-}
+DATABASES = {}
 
 
 # Password validation
