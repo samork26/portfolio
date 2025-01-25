@@ -11,7 +11,6 @@ https://docs.djangoproject.com/en/5.1/ref/settings/
 """
 
 from pathlib import Path
-import dj_database_url
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -26,7 +25,7 @@ SECRET_KEY = 'django-insecure-&e)^s!av@#6ry0z6zf92r^b*#7ax5e30a*k5szd20y98-hsdps
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['sv-portfolio.herokuapp.com']
+ALLOWED_HOSTS = ['sv-portfolio-26c495e8fafc.herokuapp.com']
 
 
 # Application definition
